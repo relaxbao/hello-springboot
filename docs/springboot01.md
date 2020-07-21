@@ -1,12 +1,13 @@
-# Springboot笔记
+# Getting Started
 
 
 
 ```java
-import org.springframework.boot.*; import org.springframework.boot.autoconfigure.*; import org.springframework.web.bind.annotation.*;
+import org.springframework.boot.*; 
+import org.springframework.boot.autoconfigure.*; import org.springframework.web.bind.annotation.*;
 
 @RestController //Controller
-@EnableAutoConfiguration //自动
+@EnableAutoConfiguration //自动加载配置文件
 public class Example {
 
 @RequestMapping("/") //route
